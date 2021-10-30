@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import { Spinner } from 'react-bootstrap';
 import useAuth from '../../hooks/useAuth';
 import SingleBooking from '../SingleBooking/SingleBooking';
 

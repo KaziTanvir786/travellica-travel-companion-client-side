@@ -1,11 +1,11 @@
 console.log(process.env);
 const firebaseConfig = {
-    apiKey: "AIzaSyCoSho9xxWYcZpbgMvaZPsmgmOfAg0fJLU",
-    authDomain: "travellica-travel-companion.firebaseapp.com",
-    projectId: "travellica-travel-companion",
-    storageBucket: "travellica-travel-companion.appspot.com",
-    messagingSenderId: "89994441076",
-    appId: "1:89994441076:web:b392f0e17394e43fed3c21"
+    apiKey: process.env.REACT_APP_API_KEY,
+    authDomain: process.env.REACT_APP_AUTH_DOMAIN,
+    projectId: process.env.REACT_APP_PROJECT_ID,
+    storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
+    messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
+    appId: process.env.REACT_APP_APP_ID,
 };
 
 export default firebaseConfig;
