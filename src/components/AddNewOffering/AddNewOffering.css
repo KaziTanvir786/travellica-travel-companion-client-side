@@ -1,0 +1,9 @@
+.add-offering form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.add-offering form input, textarea{
+    width: 40%;
+}

@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Optometric Checkup",
+        "description": "Optometric checkup is the most common eye treatment in our childhood. So many friendly and child loving doctors are availabe to give you the optometric checkup and further treatment with a greatest care.",
+        "img": "https://media.istockphoto.com/photos/young-woman-sitting-on-chair-with-beautiful-optician-standing-while-picture-id1087284932?k=20&m=1087284932&s=612x612&w=0&h=PG4DEBC0cFH2ChMr1T3uB89kTTkPRlOLvmRiWo06p6o=",
+        "totalCured": 125
+    },
+    {
+        "id": 2,
+        "name": "Laser Lasik",
+        "description": "LASIK or Lasik, commonly referred to as laser eye surgery or laser vision correction, is a type of refractive surgery for the correction of myopia, hyperopia, and astigmatism. You will get the best service.",
+        "img": "https://media.istockphoto.com/photos/operation-of-sight-picture-id495624858?k=20&m=495624858&s=612x612&w=0&h=GRO14CtI89yWGUTlJIFW6VaTtkFOzVgAsEPQGMmnmrM=",
+        "totalCured": 362
+    },
+    {
+        "id": 3,
+        "name": "Cornea & Glaucoma",
+        "description": "The first line of glaucoma treatment is eye drops or pills that are designed to reduce intraocular pressure by regulating the production and drainage of fluid in the eye, called aqueous humor. We will do it with special care.",
+        "img": "https://seemaeye.com/wp-content/uploads/2020/05/6-reasons-millennials-should-consider-lasik-eye-surgery.jpg",
+        "totalCured": 185
+    },
+    {
+        "id": 4,
+        "name": "Dry Eyes Treatment",
+        "description": "For mild cases of dry eyes caused by computer use, reading, schoolwork and other situational causes, the best dry eye treatment may simply be frequent use of artificial tears or other lubricating eye drops. All will be provided here. Without any surgery, just in a few days a patients will get rid of dry eyes.",
+        "img": "https://st.depositphotos.com/1766753/2959/i/600/depositphotos_29595703-stock-photo-cataract-surgery.jpg",
+        "totalCured": 541
+    },
+    {
+        "id": 5,
+        "name": "Contact Lense Treatment",
+        "description": "Contact lenses, or simply contacts, are thin lenses placed directly on the surface of the eyes. Contact lenses are ocular prosthetic devices used by over 150 million people worldwide. It is becoming popular and also quality less. So, we are promising to make you the pure and approriate lnses.",
+        "img": "https://media.self.com/photos/57d8815ef71ce8751f6b45cd/4:3/w_2560%2Cc_limit/sleeping-in-contacts_feat.jpg",
+        "totalCured": 322
+    },
+    {
+        "id": 6,
+        "name": "Surgical Lasik",
+        "description": "LASIK is the most commonly performed laser eye surgery to treat myopia (nearsightedness), hyperopia (farsightedness) and astigmatism. All other places will alwys refer to the laser lasik. But we are concern of patients any kind of side effect from laser. So Surgiical lasik will be good choice here.",
+        "img": "https://media.istockphoto.com/photos/skin-care-face-beauty-treatment-ipl-photo-facial-therapy-ant-picture-id501420242?k=20&m=501420242&s=612x612&w=0&h=7w6kWdEkYtxCAG5muC6SP_LmMkwXETh9BpURvOhn630=",
+        "totalCured": 95
+    }
+]
