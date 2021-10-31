@@ -4,6 +4,43 @@
     justify-content: center;
     align-items: center;
 }
-.add-offering form input, textarea{
+.add-offering form input {
     width: 40%;
+    height: 50px;
+    border-radius: 5px;
+
+}
+
+.add-offering form textarea{
+    width: 40%;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.add-offering button{
+    padding: 20px;
+    width: 250px;
+    border-radius: 50px;
+}
+
+/* responsive */
+@media only screen and (max-width: 688px){
+    .add-offering form input {
+        width: 80%;
+    
+    }
+    
+    .add-offering form textarea{
+        width: 80%;
+    }
+}
+@media only screen and (min-width:689px) and (max-width: 991px){
+    .add-offering form input {
+        width: 80%;
+    
+    }
+    
+    .add-offering form textarea{
+        width: 80%;
+    }
 }

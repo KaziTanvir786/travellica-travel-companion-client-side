@@ -1,11 +1,6 @@
 import React from 'react';
 import './OurTeam.css';
 
-// https://i.ibb.co/kBSSzTb/team-3.jpg
-// https://i.ibb.co/J73Qmz8/ceo.jpg
-// https://i.ibb.co/9ycRBzN/team-1.jpg
-// https://i.ibb.co/7Smgq5W/team-2.jpg
-
 const OurTeam = () => {
     return (
         <div className="team-container">

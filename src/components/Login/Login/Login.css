@@ -1,0 +1,33 @@
+.login-container{
+    height: 600px;
+    background-image: url("https://i.ibb.co/BfM2Qnk/login.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+}
+
+.login-item{
+    padding-top: 200px;
+}
+
+.login-item button{
+    padding: 20px;
+    width: 250px;
+    border-radius: 50px;
+}
+
+/* responsive */
+@media only screen and (max-width: 688px){
+    .login-container{
+        background-image: none;
+        margin-top: -100px;
+    }
+    .title{
+        width: 80%;
+    }
+}
+@media only screen and (min-width:689px) and (max-width: 991px){
+    .banner-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

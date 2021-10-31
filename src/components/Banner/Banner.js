@@ -1,7 +1,7 @@
 import React from 'react';
 import AvatarLogo from '../AvatarLogo/AvatarLogo';
 import './Banner.css';
-import { Wave, Random } from 'react-animated-text';
+import { Random } from 'react-animated-text';
 import { Link } from 'react-router-dom';
 
 const Banner = () => {
@@ -14,7 +14,7 @@ const Banner = () => {
                         <div className="my-4">
                             <Random text="Y o u r   T r u s t e d   T r a v e l   C o m p a n i o n" />
                         </div>
-                        <Link to="/login"><button className="banner-button my-4">Click here and join us now</button></Link>
+                        <Link to="/login"><button className="banner-button my-4"><h6>Click here and join us now</h6></button></Link>
                     </div>
                 </div>
                 <div>

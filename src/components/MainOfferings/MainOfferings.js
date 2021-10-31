@@ -15,7 +15,7 @@ const MainOfferings = () => {
             <div id="main-offerings-section" className="main-offerings-container">
                 {
                     offerings.map(offering => <Offering
-                        key={offering.id}
+                        key={offering._id}
                         offering={offering}
                     ></Offering>)
                 }

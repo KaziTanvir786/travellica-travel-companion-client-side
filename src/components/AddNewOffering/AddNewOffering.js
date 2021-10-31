@@ -17,13 +17,13 @@ const AddNewOffering = () => {
     };
     return (
         <div className="add-offering">
-            <h3>This is add offering</h3>
+            <h1 className="title mx-auto mt-2 mb-4">Add a new Package</h1>
             <form onSubmit={handleSubmit(onSubmit)}>
-                <input placeholder="Name" {...register("name", { required: true, maxLength: 100 })} /> <br />
-                <textarea placeholder="Description" {...register("description")} /> <br />
-                <input placeholder="Price" type="number" {...register("price")} /> <br />
-                <input placeholder="Image URL" {...register("img")} /> <br />
-                <input type="submit" />
+                <input className="form-control" placeholder="Name" {...register("name", { required: true, maxLength: 100 })} /> <br />
+                <textarea className="form-control" placeholder="Description" {...register("description")} /> <br />
+                <input className="form-control" placeholder="Cost" type="number" {...register("price")} /> <br />
+                <input className="form-control" placeholder="Image URL" {...register("img")} /> <br />
+                <button className="btn login-btn btn-outline-primary" type="submit">Submit</button>
             </form>
         </div>
     );

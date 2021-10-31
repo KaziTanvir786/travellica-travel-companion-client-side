@@ -1,0 +1,22 @@
+.not-found-img{
+    width: 35%;
+}
+
+.go-btn{
+    padding: 20px;
+    width: 250px;
+    border-radius: 50px;
+}
+
+/* responsive */
+@media only screen and (max-width: 688px){
+    .not-found-img{
+        width: 70%;
+    }
+    
+}
+@media only screen and (min-width:689px) and (max-width: 991px){
+    .not-found-img{
+        width: 70%;
+    }
+}
