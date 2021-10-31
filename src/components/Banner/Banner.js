@@ -1,21 +1,24 @@
 import React from 'react';
+import AvatarLogo from '../AvatarLogo/AvatarLogo';
 import './Banner.css';
+import { Wave, Random } from 'react-animated-text';
+import { Link } from 'react-router-dom';
 
 const Banner = () => {
     return (
-        <div className="banner">
+        <div id="home" className="banner">
             <div className="banner-container">
-                <div className="banner-text w-75 ms-4">
-                    <h1 style={{ marginTop: "140px", fontSize: "42px", lineHeight: "60px", fontWeight: "700" }}>
-
-                        <div>
-                            <h6 style={{ color: "gray" }}>We promise to keep your eyes healthier than ever!</h6>
+                <div className="d-flex justify-content-center align-items-center">
+                    <div className="mt-4">
+                        <AvatarLogo></AvatarLogo>
+                        <div className="my-4">
+                            <Random text="Y o u r   T r u s t e d   T r a v e l   C o m p a n i o n" />
                         </div>
-                    </h1>
-                    <a href="/services"><button className="banner-button m-4">Visit Our Services</button></a>
+                        <Link to="/login"><button className="banner-button my-4">Click here and join us now</button></Link>
+                    </div>
                 </div>
                 <div>
-
+                    <img width="100%" src="https://i.ibb.co/zscYYsS/340-3406709-travel-collage-travel-collage-png-removebg-preview.png" alt="" />
                 </div>
             </div>
         </div>

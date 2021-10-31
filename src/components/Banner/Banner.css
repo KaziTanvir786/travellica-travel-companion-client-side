@@ -1,10 +1,3 @@
-.banner{
-    height: 600px;
-    background-image: url("https://media.wsimag.com/attachments/125336b5e4550c7272548459e2cb11deffc651d7/store/fill/1090/613/74c18c18b4ce87f50cb4f07f1efbbfcde59894f24341044669b7a10bbb4f/Sunrise-at-Sajek-Valley.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
 .banner-container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -12,14 +5,23 @@
 
 .banner-button{
     padding: 20px;
-    border: 2px solid #0bcfce;
+    border: 2px solid rgb(91, 139, 179);
     border-radius: 35px;
     background-color: rgba(245, 245, 245, 0);
     transition: 0.3s;
 }
 
 .banner-button:hover{
-    background-color: #0bcfce;
+    background-color: rgb(91, 139, 179);
+    color: white;
+}
+
+.slogan-span{
+    margin: 5px;
+}
+
+.slogan{
+    margin-top: 20px;
 }
 
 /* responsive */

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import useAuth from '../../hooks/useAuth';
-import SingleBooking from '../SingleBooking/SingleBooking';
+import BookedItem from '../BookedItem/BookedItem';
+import NoBookingFound from '../NoBookingFound/NoBookingFound';
 
 const MyBookings = () => {
     const [bookings, setBookings] = useState([]);
@@ -12,7 +13,7 @@ const MyBookings = () => {
             .then(data => setBookings(data))
     }, []);
 
-    const myBookings = bookings.filter(booking => booking.user_email === user.email && booking.user_name === user.displayName);
+    const myBookings = bookings.filter(booking => booking.user_email === user.email && booking.user_name === user.displayName && booking.status === 'Confirmed');
 
     const handleDeleteBooking = id => {
         const proceed = window.confirm('Are you sure, you want to delete?');
@@ -35,12 +36,13 @@ const MyBookings = () => {
     if (myBookings.length !== 0) {
         return (
             <div className="offerings-container">
+                <h1 className="title mx-auto my-4">My Bookings</h1>
                 {
-                    myBookings.map(booking => <SingleBooking
+                    myBookings.map(booking => <BookedItem
                         key={booking._id}
                         booking={booking}
                         handleDeleteBooking={handleDeleteBooking}
-                    ></SingleBooking>)
+                    ></BookedItem>)
                 }
             </div>
         );
@@ -48,7 +50,7 @@ const MyBookings = () => {
     else {
         return (
             <div>
-                <h2 className="my-4">No Bookings found!!</h2>
+                <NoBookingFound></NoBookingFound>
             </div>
         );
     }

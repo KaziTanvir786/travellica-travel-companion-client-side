@@ -17,7 +17,7 @@ const Booking = () => {
     let name = 'N/A';
     let description = 'N/A';
     let img = 'N/A';
-    let totalCured = 'N/A';
+    let totalCost = 'N/A';
     let id = 'N/A';
 
     offerings.map(offering => {
@@ -25,7 +25,7 @@ const Booking = () => {
             name = offering.name;
             description = offering.description;
             img = offering.img;
-            totalCured = offering.totalCured;
+            totalCost = offering.totalCost;
             id = offering._id;
         }
         return '';
@@ -37,6 +37,7 @@ const Booking = () => {
     const phoneRef = useRef();
 
     const handleAddBooking = e => {
+        const status = "Pending";
         const user_name = nameRef.current.value;
         const user_email = emailRef.current.value;
         const user_address = addressRef.current.value;
@@ -45,10 +46,10 @@ const Booking = () => {
         const offering_name = name;
         const offering_description = description;
         const offering_img = img;
-        const offering_totalCured = totalCured;
+        const offering_totalCost = totalCost;
 
 
-        const newBooking = { user_name, user_email, user_address, user_phone, offering_id, offering_name, offering_description, offering_img, offering_totalCured };
+        const newBooking = { status, user_name, user_email, user_address, user_phone, offering_id, offering_name, offering_description, offering_img, offering_totalCost };
         fetch('https://quiet-cove-10103.herokuapp.com/bookings', {
             method: 'POST',
             headers: {
@@ -74,10 +75,10 @@ const Booking = () => {
                     <img src={img} alt="" />
                     <h3 className="p-4">{name}</h3>
                     <p style={{ textAlign: "justify" }}>{description}</p>
-                    <h6 className="text-success">Total {totalCured} patients of {name} have been happily cured by us.</h6>
+                    <h4 className="text-danger">Fees: ${totalCost}</h4>
                 </div>
                 <br />
-                <h2 className="heading mx-auto w-75 my-5">Enter your details and book an appointment</h2>
+                <h2 className="heading mx-auto w-75 my-5">Enter your details and book the package</h2>
                 <div>
                     <form onSubmit={handleAddBooking} className="row g-3">
                         <div className="col-md-12">

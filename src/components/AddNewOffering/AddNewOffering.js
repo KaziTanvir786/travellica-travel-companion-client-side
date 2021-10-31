@@ -10,6 +10,7 @@ const AddNewOffering = () => {
             .then(res => {
                 if (res.data.insertedId) {
                     alert('Added successfully.');
+                    window.location = "/";
                     reset();
                 }
             })
@@ -18,7 +19,7 @@ const AddNewOffering = () => {
         <div className="add-offering">
             <h3>This is add offering</h3>
             <form onSubmit={handleSubmit(onSubmit)}>
-                <input placeholder="Name" {...register("name", { required: true, maxLength: 20 })} /> <br />
+                <input placeholder="Name" {...register("name", { required: true, maxLength: 100 })} /> <br />
                 <textarea placeholder="Description" {...register("description")} /> <br />
                 <input placeholder="Price" type="number" {...register("price")} /> <br />
                 <input placeholder="Image URL" {...register("img")} /> <br />

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import NoBookingFound from '../NoBookingFound/NoBookingFound';
 import SingleBooking from '../SingleBooking/SingleBooking';
 
 const ManageBookings = () => {
@@ -27,17 +28,25 @@ const ManageBookings = () => {
         }
     }
 
-    return (
-        <div className="offerings-container">
-            {
-                bookings.map(booking => <SingleBooking
-                    key={booking._id}
-                    booking={booking}
-                    handleDeleteBooking={handleDeleteBooking}
-                ></SingleBooking>)
-            }
-        </div>
-    );
+    if (bookings.length !== 0) {
+        return (
+            <div className="offerings-container">
+                <h1 className="title mx-auto my-4">All Bookings</h1>
+                {
+                    bookings.map(booking => <SingleBooking
+                        key={booking._id}
+                        booking={booking}
+                        handleDeleteBooking={handleDeleteBooking}
+                    ></SingleBooking>)
+                }
+            </div>
+        );
+    }
+    else {
+        return (
+            <NoBookingFound></NoBookingFound>
+        )
+    }
 };
 
 export default ManageBookings;

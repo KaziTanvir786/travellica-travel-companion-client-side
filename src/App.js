@@ -9,14 +9,17 @@ import Login from './components/Login/Login/Login';
 import PrivateRoute from './components/Login/PrivateRoute/PrivateRoute';
 import ManageBookings from './components/ManageBookings/ManageBookings';
 import MyBookings from './components/MyBookings/MyBookings';
+import MyCart from './components/MyCart/MyCart';
 import NotFound from './components/NotFound/NotFound';
 import AuthProvider from './contexts/AuthProvider';
+import ScrollToTop from './hooks/ScrollToTop';
 
 function App() {
   return (
     <div className="App">
       <AuthProvider>
         <Router>
+          <ScrollToTop></ScrollToTop>
           <Header></Header>
           <Switch>
             <Route path='/home'>
@@ -33,6 +36,9 @@ function App() {
             </PrivateRoute>
             <PrivateRoute path='/my-bookings'>
               <MyBookings></MyBookings>
+            </PrivateRoute>
+            <PrivateRoute path='/my-cart'>
+              <MyCart></MyCart>
             </PrivateRoute>
             <PrivateRoute path='/manage-bookings'>
               <ManageBookings></ManageBookings>

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const SingleBooking = props => {
+const BookedItem = props => {
     const { booking } = props;
 
     return (
@@ -23,12 +23,13 @@ const SingleBooking = props => {
                             <h5 className="card-title">{booking.user_name}</h5>
                             <p className="card-text">{booking.user_address}</p>
                             <p className="card-text">{booking.user_phone}</p>
-                            <p className={booking.status === 'Confirmed' ? "text-success" : "text-warning"}>{booking.status}</p>
+                            <p className="card-text text-success">{booking.status}</p>
                         </div>
                     </div>
                     <div className="col-md-1 d-flex justify-content-center align-items-center">
                         <div className="card-body">
-                            <button className="btn btn-outline-danger" onClick={() => props.handleDeleteBooking(booking._id)} style={{ width: "80px", height: "80px", borderRadius: "50%" }}><i className="far fa-trash-alt"></i></button>
+                            <i className="text-success fs-1 far fa-check-circle"></i>
+                            <h6 className="py-2 text-success">Confirmed</h6>
                         </div>
                     </div>
                 </div>
@@ -37,4 +38,4 @@ const SingleBooking = props => {
     );
 };
 
-export default SingleBooking;
+export default BookedItem;

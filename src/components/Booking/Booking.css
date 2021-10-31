@@ -4,7 +4,6 @@
     padding: 20px;
     border-radius: 20px;
     box-shadow: 2px 2px 40px gainsboro;
-    transition: 0.3s;
 }
 
 .booking a{
@@ -14,10 +13,6 @@
 
 .booking img{
     border-radius: 50%;
-}
-.booking:hover{
-    box-shadow: 2px 2px 40px grey;
-    transform: scale(1.03);
 }
 .booking img{
     width: 50%;

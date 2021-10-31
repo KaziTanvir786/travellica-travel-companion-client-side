@@ -1,0 +1,21 @@
+.about-body{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.about-body img{
+    width: 40%;
+}
+
+/* responsive */
+@media only screen and (max-width: 688px){
+    .about-body{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media only screen and (min-width:689px) and (max-width: 991px){
+    .about-body{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+}

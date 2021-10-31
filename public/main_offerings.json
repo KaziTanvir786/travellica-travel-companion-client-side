@@ -1,44 +1,38 @@
 [
     {
-        "id": 1,
-        "name": "Optometric Checkup",
-        "description": "Optometric checkup is the most common eye treatment in our childhood. So many friendly and child loving doctors are availabe to give you the optometric checkup and further treatment with a greatest care.",
-        "img": "https://media.istockphoto.com/photos/young-woman-sitting-on-chair-with-beautiful-optician-standing-while-picture-id1087284932?k=20&m=1087284932&s=612x612&w=0&h=PG4DEBC0cFH2ChMr1T3uB89kTTkPRlOLvmRiWo06p6o=",
-        "totalCured": 125
+        "name": "Dhaka to Singapore Tour",
+        "description": "This tour package will contain the expenses of Air tickets, hotel rents, food and beverage costs and also the local vehicle rents. Total tour duation is 7 days 6 nights. A local guide will be with the group to comfortably guide you.",
+        "img": "https://5.imimg.com/data5/IY/NH/GLADMIN-46047120/sri-lanka-tour-package-500x500.png",
+        "totalCost": 1250
     },
     {
-        "id": 2,
-        "name": "Laser Lasik",
-        "description": "LASIK or Lasik, commonly referred to as laser eye surgery or laser vision correction, is a type of refractive surgery for the correction of myopia, hyperopia, and astigmatism. You will get the best service.",
-        "img": "https://media.istockphoto.com/photos/operation-of-sight-picture-id495624858?k=20&m=495624858&s=612x612&w=0&h=GRO14CtI89yWGUTlJIFW6VaTtkFOzVgAsEPQGMmnmrM=",
-        "totalCured": 362
+        "name": "Dhaka to Shajek Tour",
+        "description": "This tour package will contain the expenses of Bus tickets, hotel rents only. Food, local vehicle and local guide (if needed) will be of extra cost. Total tour duation is 3 days 3 nights. A single meal will be provided during the journey time.",
+        "img": "https://www.localguidesconnect.com/t5/image/serverpage/image-id/135575iBB2DA75B3C9B63A3?v=v2",
+        "totalCost": 400
     },
     {
-        "id": 3,
-        "name": "Cornea & Glaucoma",
-        "description": "The first line of glaucoma treatment is eye drops or pills that are designed to reduce intraocular pressure by regulating the production and drainage of fluid in the eye, called aqueous humor. We will do it with special care.",
-        "img": "https://seemaeye.com/wp-content/uploads/2020/05/6-reasons-millennials-should-consider-lasik-eye-surgery.jpg",
-        "totalCured": 185
+        "name": "Dhaka to Istanbul (Air)",
+        "description": "This is a travel package which will contain the expenses of Air tickets and other check in expenses. We will manage a private air to travel you faster and timely. Any kind of visa related delay will be handled by Travellica legally.",
+        "img": "https://cdnuploads.aa.com.tr/uploads/Contents/2020/06/29/thumbs_b_c_1854506eadc5c0a479d6ac4f8efeb7da.jpg?v=140331",
+        "totalCost": 1700
     },
     {
-        "id": 4,
-        "name": "Dry Eyes Treatment",
-        "description": "For mild cases of dry eyes caused by computer use, reading, schoolwork and other situational causes, the best dry eye treatment may simply be frequent use of artificial tears or other lubricating eye drops. All will be provided here. Without any surgery, just in a few days a patients will get rid of dry eyes.",
-        "img": "https://st.depositphotos.com/1766753/2959/i/600/depositphotos_29595703-stock-photo-cataract-surgery.jpg",
-        "totalCured": 541
+        "name": "Dhaka to Tokyo (Air)",
+        "description": "This travel package will contain the expenses of Air tickets, visa processing costs and other check in expenses. We will guide you about all the issues related to visa processing problem in Japan and all the stuffs.",
+        "img": "https://images.indianexpress.com/2020/09/pixabay_japan-airlines_1200.jpg",
+        "totalCost": 1250
     },
     {
-        "id": 5,
-        "name": "Contact Lense Treatment",
-        "description": "Contact lenses, or simply contacts, are thin lenses placed directly on the surface of the eyes. Contact lenses are ocular prosthetic devices used by over 150 million people worldwide. It is becoming popular and also quality less. So, we are promising to make you the pure and approriate lnses.",
-        "img": "https://media.self.com/photos/57d8815ef71ce8751f6b45cd/4:3/w_2560%2Cc_limit/sleeping-in-contacts_feat.jpg",
-        "totalCured": 322
+        "name": "Dhaka to Nepal Tour",
+        "description": "This tour package will contain the expenses of Air tickets, hotel rents, food and beverage costs and also the local vehicle rents. Total tour duation is 4 days 5 nights. A local guide will be with the group to comfortably guide you.",
+        "img": "https://static.toiimg.com/photo/67321906.cms",
+        "totalCost": 1200
     },
     {
-        "id": 6,
-        "name": "Surgical Lasik",
-        "description": "LASIK is the most commonly performed laser eye surgery to treat myopia (nearsightedness), hyperopia (farsightedness) and astigmatism. All other places will alwys refer to the laser lasik. But we are concern of patients any kind of side effect from laser. So Surgiical lasik will be good choice here.",
-        "img": "https://media.istockphoto.com/photos/skin-care-face-beauty-treatment-ipl-photo-facial-therapy-ant-picture-id501420242?k=20&m=501420242&s=612x612&w=0&h=7w6kWdEkYtxCAG5muC6SP_LmMkwXETh9BpURvOhn630=",
-        "totalCured": 95
+        "name": "Dhaka to Romania Tour",
+        "description": "This tour package will contain the expenses of Air tickets, hotel rents, food and beverage costs and also the local vehicle rents. Total tour duation is 10 days 10 nights. A language interpreter will be with the group to comfortably travel the country.",
+        "img": "https://media-cdn.tripadvisor.com/media/photo-s/07/72/ae/e0/romania-tour-store.jpg",
+        "totalCost": 2500
     }
 ]
