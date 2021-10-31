@@ -3,7 +3,7 @@ import './OurTeam.css';
 
 const OurTeam = () => {
     return (
-        <div className="team-container">
+        <div id="team-section" className="team-container">
             <h1 className="title mx-auto my-5">Our Team</h1>
             <div id="team">
                 <div className="team-member">

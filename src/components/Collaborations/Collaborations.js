@@ -3,7 +3,7 @@ import './Collaborations.css';
 
 const Collaborations = () => {
     return (
-        <div id="collaborations">
+        <div>
             <div className="container logo-container">
                 <img src="https://i.ibb.co/c11dhYC/col-1.gif" alt="" />
                 <img src="https://i.ibb.co/kBWVJxc/col-2.png" alt="" />

@@ -3,7 +3,7 @@ import './About.css';
 
 const About = () => {
     return (
-        <div id="about" className="mt-4 pt-4">
+        <div className="mt-4 pt-4">
             <div className="container about-body">
                 <div className="about-part px-3">
                     <img src="https://icon-library.com/images/airplane-icon-png/airplane-icon-png-25.jpg" alt="" />

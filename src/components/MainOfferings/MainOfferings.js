@@ -12,7 +12,7 @@ const MainOfferings = () => {
     }, [])
     if (offerings.length !== 0) {
         return (
-            <div id="main-offerings-section" className="main-offerings-container">
+            <div className="main-offerings-container">
                 {
                     offerings.map(offering => <Offering
                         key={offering._id}

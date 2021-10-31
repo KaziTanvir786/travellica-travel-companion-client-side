@@ -28,7 +28,7 @@ const Header = () => {
                         <Nav.Link as={HashLink} to="/home#home">Home</Nav.Link>
                         <Nav.Link as={HashLink} to="/home#about">About</Nav.Link>
                         <Nav.Link as={HashLink} to="/home#main-offerings-section">Main Offerings</Nav.Link>
-                        <Nav.Link as={HashLink} to="/home#team">Our Team</Nav.Link>
+                        <Nav.Link as={HashLink} to="/home#team-section">Our Team</Nav.Link>
                         <Nav.Link as={HashLink} to="/home#collaborations">Collaborations</Nav.Link>
                     </Nav>
                     <Nav>
@@ -45,7 +45,7 @@ const Header = () => {
                                     <img src={user.photoURL ? user.photoURL : "https://cdn-icons-png.flaticon.com/512/149/149071.png"} style={{ width: "50px", height: "50px", borderRadius: "50%" }} alt="" />
                                 </div>
                                 :
-                                <Nav.Link as={HashLink} to="/login">LOGIN</Nav.Link>
+                                <Nav.Link as={HashLink} to="/login">Login</Nav.Link>
                         }
                     </Nav>
                 </Navbar.Collapse>
