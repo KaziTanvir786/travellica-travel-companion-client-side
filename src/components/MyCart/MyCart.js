@@ -15,7 +15,7 @@ const MyCart = () => {
     const myBookings = bookings.filter(booking => booking.user_email === user.email && booking.user_name === user.displayName && booking.status === 'Pending');
 
     const handleDeleteBooking = id => {
-        const proceed = window.confirm('Are you sure, you want to delete?');
+        const proceed = window.confirm('Are you sure to delete?');
         if (proceed) {
             const uri = `https://quiet-cove-10103.herokuapp.com/bookings/${id}`;
             fetch(uri, {
@@ -56,7 +56,7 @@ const MyCart = () => {
             .then(res => res.json())
             .then(data => {
                 if (data.modifiedCount > 0) {
-                    alert('Booking confirmed successfully.');
+                    alert('Booking has beed confirmed successfully.');
                     window.location = "/";
                 }
             })

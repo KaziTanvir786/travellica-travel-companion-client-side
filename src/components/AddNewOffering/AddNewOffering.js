@@ -9,7 +9,7 @@ const AddNewOffering = () => {
         axios.post('https://quiet-cove-10103.herokuapp.com/offerings', data)
             .then(res => {
                 if (res.data.insertedId) {
-                    alert('Added successfully.');
+                    alert('Package Added successfully.');
                     window.location = "/";
                     reset();
                 }
@@ -21,7 +21,7 @@ const AddNewOffering = () => {
             <form onSubmit={handleSubmit(onSubmit)}>
                 <input className="form-control" placeholder="Name" {...register("name", { required: true, maxLength: 100 })} /> <br />
                 <textarea className="form-control" placeholder="Description" {...register("description")} /> <br />
-                <input className="form-control" placeholder="Cost" type="number" {...register("price")} /> <br />
+                <input className="form-control" placeholder="Cost" type="number" {...register("totalCost")} /> <br />
                 <input className="form-control" placeholder="Image URL" {...register("img")} /> <br />
                 <button className="btn login-btn btn-outline-primary" type="submit">Submit</button>
             </form>

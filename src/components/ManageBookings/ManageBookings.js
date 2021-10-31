@@ -11,7 +11,7 @@ const ManageBookings = () => {
     }, []);
 
     const handleDeleteBooking = id => {
-        const proceed = window.confirm('Are you sure, you want to delete?');
+        const proceed = window.confirm('Are you sure to delete?');
         if (proceed) {
             const uri = `https://quiet-cove-10103.herokuapp.com/bookings/${id}`;
             fetch(uri, {
