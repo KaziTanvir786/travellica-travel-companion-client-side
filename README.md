@@ -2,7 +2,7 @@
 
 ### [Live Site link](https://travellica-travel-companion.web.app/)
 
-### [Server side code link](https://github.com/programming-hero-web-course1/tourism-or-delivery-website-server-side-KaziTanvir786/)
+### [Server side code link](https://github.com/KaziTanvir786/travellica-travel-companion-server-side)
 
 This text documentation (given below) will allow to understand the projects overview and purposes.
 * This is the client side application, which is basically a tourism related website
